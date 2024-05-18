@@ -24,11 +24,6 @@ Ensure your `pom.xml` includes the necessary dependencies for Spring Data JPA an
         <scope>runtime</scope>
     </dependency>
     <dependency>
-        <groupId>jakarta.persistence</groupId>
-        <artifactId>jakarta.persistence-api</artifactId>
-        <version>3.0.0</version>
-    </dependency>
-    <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-test</artifactId>
         <scope>test</scope>
